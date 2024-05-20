@@ -46,18 +46,19 @@ const RegistrarDashboard = () => {
     <div className="registrar-dashboard">
       <nav className="navbar">
         <h1>Registrar Panel</h1>
-        <div className="search-bar">
-          <input
-            type="text"
-            placeholder="Search Event"
-            value={searchQuery}
-            onChange={handleSearch}
-          />
-        </div>
+        <div className="search-bar"></div>
         <button onClick={handleLogout} className="logout-button">
           Logout
         </button>
       </nav>
+      <div className="registrar-controls">
+        <input
+          type="text"
+          placeholder="Search Event"
+          value={searchQuery}
+          onChange={handleSearch}
+        />
+      </div>
       <div className="content">
         {filteredEvents.map((event) => (
           <div key={event.id} className="event-card">

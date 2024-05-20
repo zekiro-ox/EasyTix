@@ -47,7 +47,7 @@ body {
   justify-content: space-between;
   padding: 0 30px 0 30px;
   background-color: #00000004;
-  box-shadow: 2px 6px 7px -3px rgb(10, 10, 10);
+  box-shadow: 2px 6px 7px -3px rgba(10, 10, 10, 0.322);
 }
 
 .menu-icon {
@@ -64,7 +64,7 @@ body {
   overflow-y: auto;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
-  box-shadow: 2px 6px 7px -3px rgb(10, 10, 10);
+  box-shadow: 2px 6px 7px -3px rgba(10, 10, 10, 0.322);
 
 }
 
@@ -195,7 +195,7 @@ body {
   justify-content: space-around;
   padding: 10px 15px;
   border-radius: 30px;
-  box-shadow: 2px 6px 7px -3px rgb(10, 10, 10);
+  box-shadow: 2px 6px 7px -3px rgba(10, 10, 10, 0.322);
   color: #000000;
 }
 
@@ -236,7 +236,7 @@ body {
   padding: 10px 30px 100px 30px;
   background: rgb(255, 255, 255);
   border-radius: 30px;
-  box-shadow: 2px 6px 7px -3px rgb(10, 10, 10);
+  box-shadow: 2px 6px 7px -3px rgba(10, 10, 10, 0.322);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -258,7 +258,7 @@ body {
   padding: 60px 60px 60px 50px;
   background: rgb(255, 255, 255);
   border-radius: 30px;
-  box-shadow: 2px 6px 7px -3px rgb(10, 10, 10);
+  box-shadow: 2px 6px 7px -3px rgba(10, 10, 10, 0.322);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -311,7 +311,7 @@ body {
   cursor: pointer;
   margin-top: 5px;
   width: 106%;
-  box-shadow: 2px 6px 7px -3px rgb(10, 10, 10);
+  box-shadow: 2px 6px 7px -3px rgba(10, 10, 10, 0.322);
   font-family:'Helvetica Neue', sans-serif;
 }
 
@@ -440,7 +440,7 @@ body {
   text-align: center;
   color: #000000;
   font-family:'Helvetica Neue', sans-serif;
-  box-shadow: 2px 6px 7px -3px rgb(10, 10, 10);
+  box-shadow: 2px 6px 7px -3px rgba(10, 10, 10, 0.322);
   
 }
 
@@ -485,7 +485,7 @@ body {
   padding: 25px;
   color: #333333;
   border-radius: 8px;
-  box-shadow: 2px 6px 7px -3px rgb(10, 10, 10);
+  box-shadow: 2px 6px 7px -3px rgba(10, 10, 10, 0.322);
   width: 400px;
   display: grid;
   max-width: 90%;
@@ -727,7 +727,7 @@ button {
   text-align: center;
   color: #000000;
   font-family: 'Helvetica Neue', sans-serif;
-  box-shadow: 2px 6px 7px -3px rgb(10, 10, 10);
+  box-shadow: 2px 6px 7px -3px rgba(10, 10, 10, 0.322);
 }
 
 .message-table th {
@@ -833,12 +833,12 @@ button {
   border: 1px solid black;
 }
 .user-btn {
-  padding: 12px 24px;
+  padding: 7px 12px 7px 12px;
   background-color: #000000e3;
   color: #ffffff;
   border: none;
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 12px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-family:'Helvetica Neue', sans-serif;
@@ -866,7 +866,7 @@ button {
   text-align: center;
   color: #000000;
   font-family:'Helvetica Neue', sans-serif;
-  box-shadow: 2px 6px 7px -3px rgb(10, 10, 10);
+  box-shadow: 2px 6px 7px -3px rgba(10, 10, 10, 0.322);
   
 }
 
@@ -921,7 +921,7 @@ button {
   text-align: center;
   color: #000000;
   font-family:'Helvetica Neue', sans-serif;
-  box-shadow: 2px 6px 7px -3px rgb(10, 10, 10);
+  box-shadow: 2px 6px 7px -3px rgba(10, 10, 10, 0.322);
   
 }
 
@@ -944,7 +944,7 @@ button {
   padding: 0 30px 0 30px;
   background-color: #00000004;
   color: black;
-  box-shadow: 2px 6px 7px -3px rgb(10, 10, 10);
+  box-shadow: 2px 6px 7px -3px rgba(10, 10, 10, 0.322);
 }
 
 .search-bar input[type="text"] {
@@ -991,7 +991,7 @@ button {
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 30px;
-  box-shadow: 2px 6px 7px -3px rgb(10, 10, 10);
+  box-shadow: 2px 6px 7px -3px rgba(10, 10, 10, 0.322);
   margin-bottom: 10px; 
 }
 .event-card .on-going {
@@ -1089,7 +1089,7 @@ button {
   text-align: left;
   color: #000000;
   font-family:'Helvetica Neue', sans-serif;
-  box-shadow: 2px 6px 7px -3px rgb(10, 10, 10);
+  box-shadow: 2px 6px 7px -3px rgba(10, 10, 10, 0.322);
   
 }
 
