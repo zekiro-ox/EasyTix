@@ -13,7 +13,6 @@ const RegistrarPanel = () => {
       phone: "123-456-7890",
       ticketType: "VIP",
     },
-    // ... other participants
   ]);
   const [showScanner, setShowScanner] = useState(false);
 
@@ -26,6 +25,7 @@ const RegistrarPanel = () => {
       );
       const onScanSuccess = (decodedText, decodedResult) => {
         console.log(`Code matched = ${decodedText}`, decodedResult);
+        alert("Successfully Scanned");
         setShowScanner(false); // Close scanner after successful scan
       };
       const onScanFailure = (error) => {
