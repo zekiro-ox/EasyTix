@@ -59,7 +59,7 @@ const AdminLoginPage = ({ onLogin }) => {
           <br />
           <button type="submit">Login</button>
           <article>
-            Registrar?{" "}
+            Organizer?{" "}
             <Link
               to="/registrar-login"
               style={{ cursor: "pointer", color: "blue" }}
