@@ -30,7 +30,7 @@ function Audience() {
       <div className="audience-controls">
         <input
           type="text"
-          placeholder="Search Audience"
+          placeholder="Search User"
           value={searchText}
           onChange={handleSearch}
         />
