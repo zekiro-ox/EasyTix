@@ -42,7 +42,7 @@ const RegistrarLoginPage = () => {
         </div>
       ) : (
         <div className="admin-login-page">
-          <h1>Registrar Login</h1>
+          <h1>Organizer Login</h1>
           <form onSubmit={handleSubmit}>
             <label htmlFor="email">Email:</label>
             <input type="email" id="email" name="email" required />

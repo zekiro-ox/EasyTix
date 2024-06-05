@@ -45,7 +45,7 @@ const RegistrarDashboard = () => {
   return (
     <div className="registrar-dashboard">
       <nav className="navbar">
-        <h1>Registrar Panel</h1>
+        <h1>Organizer Panel</h1>
         <div className="search-bar"></div>
         <button onClick={handleLogout} className="logout-button">
           Logout

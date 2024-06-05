@@ -78,7 +78,7 @@ function Sidebar({
             }
             className={activeRoute === "audience" ? "active" : ""}
           >
-            <BsPeopleFill className="icon" /> Audience
+            <BsPeopleFill className="icon" /> User
           </a>
         </li>
         <li className="sidebar-list-item">
@@ -87,7 +87,7 @@ function Sidebar({
             onClick={(screen) => handleRouteChangeLocal(screen, "user", "user")}
             className={activeRoute === "user" ? "active" : ""}
           >
-            <FaUserGear className="icon" /> Registrar
+            <FaUserGear className="icon" /> Organizer
           </a>
         </li>
         <li className="sidebar-list-item">
